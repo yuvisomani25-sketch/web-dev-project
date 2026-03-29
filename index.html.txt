@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yuvi Vivek Somani | Portfolio</title>
+    <!-- Importing Google Fonts for professional typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation Bar using Flexbox -->
+    <nav class="navbar">
+        <div class="logo">YuviSomani</div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Header with Visual Hierarchy -->
+    <header class="hero">
+        <div class="container">
+            <h1>Yuvi Vivek Somani</h1>
+            <p class="subtitle">Aspiring Web Developer</p>
+            <div class="contact-info">
+                <span>Email: <a href="mailto:yuvisomani25@gmail.com">yuvisomani25@gmail.com</a></span> | 
+                <span>Phone: 9727957349</span>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- About Section -->
+        <section id="about" class="section">
+            <h2>About Me</h2>
+            <p>I am a highly motivated <strong>1st year BBA DBE student</strong> with a strong academic background, having achieved 92% in both my 10th and 12th grades. I am currently focused on building a project in web development by mastering frontend technologies like HTML and CSS.</p>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="section">
+            <h2>Education</h2>
+            <div class="edu-item">
+                <h3>BBA DBE (Digital Business & Entrepreneurship)</h3>
+                <p>Currently in 1st Year</p>
+            </div>
+            <div class="edu-item">
+                <h3>12th Grade - 92%</h3>
+                <p>Vision Int School, 2025</p>
+            </div>
+            <div class="edu-item">
+                <h3>10th Grade - 92%</h3>
+                <p>Vision Int School, 2023</p>
+            </div>
+        </section>
+
+        <!-- Skills Section using Flexbox for spacing -->
+        <section id="skills" class="section">
+            <h2>Technical Skills</h2>
+            <div class="skills-container">
+                <span class="skill-badge">HTML5</span>
+                <span class="skill-badge">CSS3</span>
+                <span class="skill-badge">Responsive Design</span>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2026 Yuvi Vivek Somani. Built for Web Development Assignment.</p>
+    </footer>
+
+</body>
+</html>
